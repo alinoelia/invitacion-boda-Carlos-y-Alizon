@@ -622,7 +622,7 @@ export default function App() {
 
       {/* Imagen PNG de Fondo Marco Floral */}
       <img
-        src="/fondo.svg"
+        src={`${import.meta.env.BASE_URL}fondo.svg`}
         alt="Fondo Marco Floral"
         className="bg-frame-overlay"
         onError={(e) => { e.target.style.display = 'none'; }}
