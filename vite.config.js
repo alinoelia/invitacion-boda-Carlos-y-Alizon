@@ -1,9 +1,8 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  // 👇 CAMBIA "nombre-de-tu-repo" por el nombre real de tu repositorio en GitHub
+  base: '/Invitacion-charlizon/', 
   plugins: [react()],
 })
-
