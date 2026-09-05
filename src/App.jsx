@@ -867,31 +867,18 @@ export default function App() {
             {/* Cuenta Argentina */}
             <div style={{ background: '#fdfaf5', padding: '16px', borderRadius: '16px', border: '1px solid var(--gold-border)', marginBottom: '14px' }}>
               <strong style={{ fontSize: '11px', fontFamily: 'var(--font-cinzel)', color: 'var(--text-main)', display: 'block' }}>CUENTA BANCARIA (ARGENTINA)</strong>
-              <div style={{ fontSize: '11px', color: '#666', marginTop: '2px' }}>Titular: Alizon & Carlos | BBVA</div>
+              <div style={{ fontSize: '11px', color: '#666', marginTop: '2px' }}>Titular: Alizon Noelia Gamboa Garcia | Galicia</div>
               
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#fff', padding: '8px 12px', borderRadius: '10px', marginTop: '8px', fontFamily: 'monospace', fontSize: '11px', border: '1px solid #eee' }}>
-                <span>CBU: 0170098740000012345678</span>
-                <button style={{ border: 'none', background: 'none', cursor: 'pointer', color: 'var(--gold-accent)' }} onClick={() => handleCopy('0170098740000012345678', 'CBU')}>
+                <span>CBU: 0070160630004049743653</span>
+                <button style={{ border: 'none', background: 'none', cursor: 'pointer', color: 'var(--gold-accent)' }} onClick={() => handleCopy('0070160630004049743653', 'CBU')}>
                   <i className="fa-regular fa-copy"></i>
                 </button>
               </div>
 
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#fff', padding: '8px 12px', borderRadius: '10px', marginTop: '6px', fontFamily: 'monospace', fontSize: '11px', border: '1px solid #eee' }}>
-                <span>ALIAS: alizon.carlos.boda</span>
-                <button style={{ border: 'none', background: 'none', cursor: 'pointer', color: 'var(--gold-accent)' }} onClick={() => handleCopy('alizon.carlos.boda', 'Alias')}>
-                  <i className="fa-regular fa-copy"></i>
-                </button>
-              </div>
-            </div>
-
-            {/* Cuenta Internacional / España */}
-            <div style={{ background: '#fdfaf5', padding: '16px', borderRadius: '16px', border: '1px solid var(--gold-border)' }}>
-              <strong style={{ fontSize: '11px', fontFamily: 'var(--font-cinzel)', color: 'var(--text-main)', display: 'block' }}>TRANSFERENCIA INTERNACIONAL / ESPAÑA</strong>
-              <div style={{ fontSize: '11px', color: '#666', marginTop: '2px' }}>Banco Santander España</div>
-
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#fff', padding: '8px 12px', borderRadius: '10px', marginTop: '8px', fontFamily: 'monospace', fontSize: '11px', border: '1px solid #eee' }}>
-                <span>IBAN: ES91 2100 0418 4502 0005 6789</span>
-                <button style={{ border: 'none', background: 'none', cursor: 'pointer', color: 'var(--gold-accent)' }} onClick={() => handleCopy('ES9121000418450200056789', 'IBAN')}>
+                <span>ALIAS: alizonYcarlos.gal</span>
+                <button style={{ border: 'none', background: 'none', cursor: 'pointer', color: 'var(--gold-accent)' }} onClick={() => handleCopy('alizonYcarlos.gal', 'Alias')}>
                   <i className="fa-regular fa-copy"></i>
                 </button>
               </div>
