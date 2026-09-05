@@ -203,12 +203,13 @@ export default function App() {
 
         .main-wrapper {
           max-width: 800px;
+          width: 100%;
           margin: 0 auto;
           background-color: var(--bg-color);
           box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
           position: relative;
           min-height: 100vh;
-          overflow: hidden;
+          overflow-x: hidden;
           border-left: 1px solid rgba(185, 151, 91, 0.2);
           border-right: 1px solid rgba(185, 151, 91, 0.2);
         }
@@ -586,10 +587,10 @@ export default function App() {
         }
 
         @media (max-width: 480px) {
-          .hero-names-title { font-size: 42px; }
-          .script-nos-casamos { font-size: 36px; }
-          .countdown-digit { font-size: 40px; }
-          .countdown-colon { font-size: 30px; }
+          .hero-names-title { font-size: 11vw; }
+          .script-nos-casamos { font-size: 10vw; }
+          .countdown-digit { font-size: 32px; }
+          .countdown-colon { font-size: 24px; }
           .countdown-item { min-width: 42px; }
         }
       `}</style>
