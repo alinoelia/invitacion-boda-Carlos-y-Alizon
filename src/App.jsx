@@ -711,7 +711,7 @@ export default function App() {
             <div className="timeline-dot"><div className="timeline-dot-inner"></div></div>
             <span style={{ fontSize: '11px', fontWeight: 600, color: 'var(--gold-accent)', letterSpacing: '1.5px' }}>22 · 08 · 2020</span>
             <h3 style={{ fontFamily: 'var(--font-cinzel)', fontSize: '13px', color: 'var(--text-main)', marginTop: '2px', fontWeight: 600 }}>EL COMIENZO</h3>
-            <p style={{ fontSize: '12px', color: 'var(--text-muted)', maxWidth: '280px', marginTop: '2px' }}>Dos personas se encontraron y comenzó nuestra historia.</p>
+            <p style={{ fontSize: '12px', color: 'var(--text-muted)', maxWidth: '280px', marginTop: '2px' }}>Dos personas se encontraron bailando y comenzó nuestra historia.</p>
           </div>
 
           <div className="timeline-item">
@@ -759,7 +759,7 @@ export default function App() {
               <i className="fa-regular fa-sun"></i>
             </div>
             <h3 style={{ fontFamily: 'var(--font-cinzel)', fontSize: '14px', letterSpacing: '1.5px', color: 'var(--text-main)', fontWeight: 600 }}>CEREMONIA CIVIL</h3>
-            <div style={{ fontFamily: 'var(--font-cinzel)', fontSize: '13px', color: 'var(--gold-accent)', fontWeight: 600, margin: '6px 0 10px' }}>10:00 AM</div>
+            <div style={{ fontFamily: 'var(--font-cinzel)', fontSize: '13px', color: 'var(--gold-accent)', fontWeight: 600, margin: '6px 0 10px' }}>10:30 AM</div>
             <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '22px' }}>Av. Vicente López 2050<br />Recoleta, Buenos Aires</p>
             <a href={MAP_CIVIL_URL} target="_blank" rel="noopener noreferrer" className="btn-olive">
               <i className="fa-solid fa-location-dot"></i>
